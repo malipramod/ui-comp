@@ -36,6 +36,5 @@ module.exports = {
             }
         ]
     },
-    externals: ['react'],
     mode: 'production'
 };
