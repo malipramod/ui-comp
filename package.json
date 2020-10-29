@@ -4,16 +4,13 @@
   "private": true,
   "main": "build/index.js",
   "dependencies": {
-    "@babel/preset-react": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "css-loader": "^5.0.0",
-    "file-loader": "^6.2.0",
+    "eslint": "^7.12.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
-    "style-loader": "^2.0.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -42,10 +39,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
-    "webpack-cli": "^4.1.0"
+    "webpack-cli": "^4.1.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "file-loader": "^6.2.0"
   }
 }

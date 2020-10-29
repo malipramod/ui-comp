@@ -1,6 +1,6 @@
 import React from 'react';
 import './helloWorld.css';
-const ProfileCard = ({name}) => (
+export const HelloWorld2 = ({name}) => (
     <div className="card">
         <div className="container">
             <h4>Hello again <b>{name}</b></h4>
@@ -8,4 +8,4 @@ const ProfileCard = ({name}) => (
     </div>
 )
 
-export default ProfileCard;
+
