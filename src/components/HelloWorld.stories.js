@@ -6,19 +6,29 @@ import { HelloWorld } from './HelloWorld';
 export default {
     title: 'Example/HelloWorld',
     component: HelloWorld,
-    argTypes: {
-        name: 'John',
-    },
+    // argTypes: { onClick: { actions: { argTypesRegex: '^on.*' }  } },
+    parameters: {
+        actions: { argTypesRegex: '^on.*' },
+        docs: {
+            description: {
+                component: '### Some description for component(Can write MarkDown too)'
+            }
+        }
+    }
 };
+
+const sayHello = name => alert('Hi ' + name)
 
 const Template = (args) => <HelloWorld {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  name: 'John'
+    name: 'John',
+    sayHello
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
     name: 'Johnathan',
+    sayHello
 };
