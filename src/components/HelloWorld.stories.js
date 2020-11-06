@@ -6,7 +6,6 @@ import { HelloWorld } from './HelloWorld';
 export default {
     title: 'Example/HelloWorld',
     component: HelloWorld,
-    // argTypes: { onClick: { actions: { argTypesRegex: '^on.*' }  } },
     parameters: {
         actions: { argTypesRegex: '^on.*' },
         docs: {

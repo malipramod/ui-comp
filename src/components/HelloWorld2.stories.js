@@ -20,5 +20,5 @@ Primary.args = {
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-    name: 'Johnathan',
+    name: 'Jonathan',
 };
